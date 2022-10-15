@@ -77,7 +77,7 @@ soundKonverterView::soundKonverterView( Logger *_logger, Config *_config, CDMana
     cAdd = new ComboButton( this );
     QFont font = cAdd->font();
     //font.setWeight( QFont::DemiBold );
-    font.setPointSize( font.pointSize() + 3 );
+    //font.setPointSize( font.pointSize() + 3 );
     cAdd->setFont( font );
     cAdd->insertItem( KIcon("audio-x-generic"), i18n("Add files...") );
     cAdd->insertItem( KIcon("folder"), i18n("Add folder...") );
